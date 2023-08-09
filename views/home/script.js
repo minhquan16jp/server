@@ -13,7 +13,6 @@ axios({
           <tr>
             <td>${index + 1}</td>
             <td>${item.mail}</td>
-            <td>${groupName}</td>
             <td>${item.codes[groupName]}</td>
           </tr>
         `;
